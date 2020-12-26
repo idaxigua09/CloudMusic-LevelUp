@@ -32,4 +32,4 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           SCKEY: ${{ secrets.SCKEY }}
         run: |
-          python3 action.py ${PHONE} ${PASSWORD} -s ${SCKEY}
+          python3 action.py ${13084888636} ${9cdc0846b9c35ad092e6eb276bff183c} -s ${SCKEY}
